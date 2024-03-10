@@ -26,8 +26,8 @@ The goal of this challenge is to create a pricing component with a toggle featur
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/pricing-component-with-toggle-html-css-js-XJ5stQMtRl)
+- [Live Site URL](https://stately-duckanoo-3a6063.netlify.app/)
 
 ## My Process
 
