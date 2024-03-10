@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="head">
+        <h1>Our Pricing</h1>
+        <div class="pricing-switching">
+          <span class="priceType" id="annually">Annually</span>
+          <div class="toggleBtn">
+            <input type="checkbox" name="" id="check" checked />
+            <label for="check" class="button"></label>
+          </div>
+          <span class="priceType" id="monthly">Monthly</span>
+        </div>
+      </div>
+
+      <!-- Cards section starts here -->
+      <div class="cards">
+        <!-- left card -->
+        <article class="side-card">
+          <h2 class="title left-title">Basic</h2>
+          <span class="dollar-symbol">&dollar;</span>
+          <h3 class="monthly-price basic">19.99</h3>
+          <hr class="card-divider" />
+          <p>500 GB Storage</p>
+          <hr class="card-divider" />
+          <p>2 Users Allowed</p>
+          <hr class="card-divider" />
+          <p>Send up to 3 GB</p>
+          <hr class="card-divider" />
+          <button class="btn side-btn">Learn More</button>
+        </article>
+        <!-- center card -->
+        <article class="professional-card">
+          <h2 class="title midText mid-title">Professional</h2>
+
+          <span class="dollar-symbol midText">&dollar;</span>
+          <h3 class="monthly-price midText pro">24.99</h3>
+          <hr class="card-divider" />
+          <p class="midText">1 TB Storage</p>
+          <hr class="card-divider" />
+          <p class="midText">5 Users Allowed</p>
+          <hr class="card-divider" />
+          <p class="midText">Send up to 10 GB</p>
+          <hr class="card-divider" />
+          <button class="btn center-btn">Learn More</button>
+        </article>
+        <!-- right card -->
+        <article class="side-card">
+          <h2 class="title right-title">Master</h2>
+          <span class="dollar-symbol">&dollar;</span>
+          <h3 class="monthly-price master">39.99</h3>
+          <hr class="card-divider" />
+          <p>2 TB Storage</p>
+          <hr class="card-divider" />
+          <p>10 Users Allowed</p>
+          <hr class="card-divider" />
+          <p>Send up to 20 GB</p>
+          <hr class="card-divider" />
+          <button class="btn side-btn">Learn More</button>
+        </article>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
